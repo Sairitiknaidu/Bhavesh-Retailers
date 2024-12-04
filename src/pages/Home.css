@@ -1,0 +1,56 @@
+/* frontend/src/components/Home/Home.css */
+
+.home-container {
+  display: flex;
+  /* Flexbox for layout */
+  flex-direction: column;
+  /* Column direction */
+  align-items: center;
+  /* Center content horizontally */
+  text-align: center;
+  /* Text alignment */
+}
+
+.home-image {
+  max-width: 100%;
+  /* Responsive image */
+  height: auto;
+  /* Maintain aspect ratio */
+  border-radius: 10px;
+  /* Rounded corners */
+  margin-bottom: 20px;
+  /* Space below the image */
+}
+
+.home-text {
+  padding: 20px;
+  /* Padding around the text */
+  background-color: white;
+  /* White background for text container */
+  border-radius: 8px;
+  /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  /* Shadow for text box */
+}
+
+h1 {
+  font-size: 2rem;
+  /* Heading size */
+}
+
+p {
+  font-size: 1rem;
+  /* Paragraph size */
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+    /* Responsive heading size */
+  }
+
+  p {
+    font-size: 0.9rem;
+    /* Responsive paragraph size */
+  }
+}

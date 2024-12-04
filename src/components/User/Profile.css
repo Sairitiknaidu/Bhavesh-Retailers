@@ -1,0 +1,79 @@
+/* frontend/src/components/User/Profile.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Global font */
+  background-color: #f7f7f7; /* Light grey background */
+}
+
+.profile-container {
+  max-width: 600px; /* Max width of container */
+  margin: 40px auto; /* Center the container */
+  padding: 20px; /* Padding around the container */
+  background: white; /* White background for the container */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+  text-align: center; /* Center the title */
+  color: #333; /* Title color */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+.profile-header {
+  text-align: center; /* Center align header components */
+  margin-bottom: 20px; /* Space below header */
+}
+
+.profile-avatar {
+  width: 150px; /* Avatar size */
+  height: 150px; /* Avatar size */
+  border-radius: 50%; /* Circular avatar */
+  border: 2px solid #007bff; /* Border around avatar */
+  margin-bottom: 10px; /* Space below avatar */
+}
+
+.profile-form {
+  display: flex; /* Flexbox for layout */
+  flex-direction: column; /* Column direction */
+  gap: 15px; /* Space between form elements */
+}
+
+label {
+  display: block; /* Block display for label */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"] {
+  padding: 10px; /* Padding inside input fields */
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  width: 100%; /* Full width input fields */
+}
+
+button {
+  background-color: #007bff; /* Button color */
+  color: white; /* Button text color */
+  padding: 10px; /* Padding inside button */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer on hover */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+  .profile-container {
+    padding: 15px; /* Reduce padding on smaller screens */
+  }
+
+  h1 {
+    font-size: 1.5rem; /* Adjust heading size */
+  }
+}

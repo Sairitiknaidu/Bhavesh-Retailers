@@ -1,0 +1,65 @@
+/* frontend/src/pages/Register.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Sets a nice font for the body */
+  background: linear-gradient(
+    to right,
+    #d9e3f0,
+    #f0f4ff
+  ); /* Soft gradient background */
+}
+
+.register-container {
+  max-width: 500px; /* Maximum width for the form */
+  margin: 100px auto; /* Center the form vertically and horizontally */
+  padding: 20px; /* Padding around the form */
+  background: white; /* White background for the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  text-align: center; /* Center text */
+}
+
+h1 {
+  color: #333; /* Header color */
+  margin-bottom: 20px; /* Space below the header */
+}
+
+.register-form {
+  display: flex; /* Use flex for layout */
+  flex-direction: column; /* Stack items vertically */
+}
+
+.register-input {
+  padding: 10px; /* Padding inside inputs */
+  margin: 10px 0; /* Space between inputs */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 4px; /* Rounded edges */
+  font-size: 1rem; /* Font size */
+}
+
+.register-button {
+  padding: 10px; /* Padding around the button */
+  background-color: #007bff; /* Button color */
+  color: white; /* Text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded edges */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.register-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+@media (max-width: 600px) {
+  .register-container {
+    margin: 20px; /* Reduce margin on small screens */
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+
+  h1 {
+    font-size: 1.8rem; /* Adjust header size on small screens */
+  }
+}

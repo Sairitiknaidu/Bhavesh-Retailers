@@ -1,0 +1,65 @@
+/* frontend/src/components/Admin/FreeDemoTracker.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Global font */
+  background-color: #f4f4f4; /* Light grey background */
+}
+
+.free-demo-container {
+  max-width: 1200px; /* Max width of container */
+  margin: auto; /* Center the container */
+  padding: 40px; /* Padding around the container */
+  background: white; /* White background for the container */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+  color: #333; /* Title color */
+  margin-bottom: 20px; /* Space below the title */
+  text-align: center; /* Center the title */
+}
+
+.demo-table {
+  width: 100%; /* Full width table */
+  border-collapse: collapse; /* Collapse borders */
+  margin-top: 20px; /* Space above the table */
+}
+
+.demo-table th,
+.demo-table td {
+  border: 1px solid #dddddd; /* Light grey border */
+  text-align: left; /* Left align text */
+  padding: 12px; /* Padding inside cells */
+}
+
+.demo-table th {
+  background-color: #007bff; /* Header background color */
+  color: white; /* Header text color */
+}
+
+.demo-table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Alternating row background color */
+}
+
+.demo-table tr:hover {
+  background-color: #ddd; /* Highlight on hover */
+}
+
+@media (max-width: 768px) {
+  .free-demo-container {
+    padding: 20px; /* Reduce padding on smaller screens */
+  }
+
+  h1 {
+    font-size: 1.8rem; /* Adjust heading size */
+  }
+
+  .demo-table th,
+  .demo-table td {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    padding: 8px; /* Less padding in cells */
+  }
+}

@@ -1,0 +1,104 @@
+/* frontend/src/components/Reseller/ResellerPanel.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Global font */
+  background-color: #f4f4f4; /* Light grey background */
+}
+
+.reseller-panel-container {
+  max-width: 1200px; /* Max width of container */
+  margin: auto; /* Center the container */
+  padding: 40px; /* Padding around the container */
+  background: white; /* White background for the container */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+  color: #333; /* Title color */
+  margin-bottom: 20px; /* Space below the title */
+  text-align: center; /* Center the title */
+}
+
+.reseller-form {
+  display: flex; /* Flexbox for layout */
+  flex-direction: column; /* Column direction */
+  gap: 10px; /* Space between form elements */
+  margin-bottom: 20px; /* Space below form */
+}
+
+.reseller-form input,
+.reseller-form select,
+.reseller-form button {
+  padding: 10px; /* Padding inside form elements */
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.reseller-form button {
+  background-color: #007bff; /* Button color */
+  color: white; /* Text color */
+  cursor: pointer; /* Pointer on hover */
+}
+
+.reseller-table {
+  width: 100%; /* Full width table */
+  border-collapse: collapse; /* Collapse borders */
+}
+
+.reseller-table th,
+.reseller-table td {
+  border: 1px solid #dddddd; /* Light grey border */
+  text-align: left; /* Left align text */
+  padding: 12px; /* Padding inside cells */
+}
+
+.reseller-table th {
+  background-color: #007bff; /* Header background color */
+  color: white; /* Header text color */
+}
+
+.reseller-table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Alternating row background color */
+}
+
+.reseller-table tr:hover {
+  background-color: #ddd; /* Highlight on hover */
+}
+
+.reseller-table button {
+  padding: 5px 10px; /* Padding for buttons */
+  border: none; /* No border */
+  background-color: #dc3545; /* Red color for delete button */
+  color: white; /* Text color */
+  cursor: pointer; /* Pointer on hover */
+  border-radius: 3px; /* Rounded corners */
+}
+
+.reseller-table button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+@media (max-width: 768px) {
+  .reseller-panel-container {
+    padding: 20px; /* Reduce padding on smaller screens */
+  }
+
+  h1 {
+    font-size: 1.8rem; /* Adjust heading size */
+  }
+
+  .reseller-form input,
+  .reseller-form select,
+  .reseller-form button {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  .reseller-table th,
+  .reseller-table td {
+    font-size: 14px; /* Font size for table */
+    padding: 8px; /* Less padding in cells */
+  }
+}

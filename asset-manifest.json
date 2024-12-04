@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Bhavesh-Retailers/static/css/main.7c2ebf0d.css",
+    "main.js": "/Bhavesh-Retailers/static/js/main.d4f26675.js",
+    "static/media/login-image.png": "/Bhavesh-Retailers/static/media/login-image.06c8570bbfcca1d9f9a1.png",
+    "static/media/demo-card.png": "/Bhavesh-Retailers/static/media/demo-card.efae99202bfa63650294.png",
+    "index.html": "/Bhavesh-Retailers/index.html",
+    "main.7c2ebf0d.css.map": "/Bhavesh-Retailers/static/css/main.7c2ebf0d.css.map",
+    "main.d4f26675.js.map": "/Bhavesh-Retailers/static/js/main.d4f26675.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c2ebf0d.css",
+    "static/js/main.d4f26675.js"
+  ]
+}
